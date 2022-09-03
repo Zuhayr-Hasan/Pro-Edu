@@ -1,0 +1,61 @@
+.navbarheader {
+    .css-l1by21-MuiGrid-root {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 15px 25px;
+    }
+    .nav-mid {
+        display: flex;
+        justify-content: center;
+    }
+    display: flex;
+    align-items: center;
+    background-color: #fff !important;
+    color: black !important;
+    box-shadow: none;
+    font-family: 'Poppins';
+    .css-1da9gdh-MuiButtonBase-root-MuiButton-root {
+        color: #777777;
+        text-transform: unset;
+        padding: 0 20px;
+        font-family: 'Poppins';
+        margin-top: 26px;
+        font-size: 15px;
+    }
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        background: #fff;
+        color: #289BDE;
+        border: 1px solid #289BDE;
+        box-shadow: none;
+        font-weight: bold;
+        text-transform: unset;
+        font-family: 'Poppins';
+    }
+    .css-7ww4et-MuiGrid-root {
+        display: flex;
+        justify-content: end;
+        font-family: 'Poppins';
+    } 
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none !important;
+}
+
+.css-1oovng3-MuiTypography-root {
+    font-family: 'Poppins' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px !important;
+    line-height: 60px;
+    color: #4A4A4A;
+}
+
+@media (max-width: 600px) {
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        display: none;
+    }
+    .register{
+        display: none !important;
+    }
+}

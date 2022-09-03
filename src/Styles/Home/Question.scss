@@ -1,0 +1,49 @@
+.question-section {
+    .acc-card {
+        width: 70%;
+        margin-top: 25px;
+    }
+   .question-acc.Mui-expanded {
+        background: #F4FAFD;
+   }
+   .question-h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 60px;
+        text-align: center;
+        color: #1D1D1D;
+        width: 100%;
+   }
+   .question-p {
+        margin-top: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #777777;
+        width: 100%;
+        padding: 0 250px;
+   }
+   .question-acc {
+        .question-h5 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: #4A4A4A;
+        }
+        .question-para {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #777777;
+        }
+   }
+}

@@ -1,0 +1,72 @@
+$background-color: #F4FAFD;
+$color-black: #1D1D1D;
+$color-gray: #777777;
+$font-family: 'Poppins';
+$color-white: #fff;
+$color-lightblue: #289BDE;
+
+.coures-section {
+    .course-btn {
+        padding: 10px 30px;
+        background: $color-lightblue;
+        margin-left: 60px;
+        margin-top: 40px;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: $color-white;
+    }
+    .course-btn:hover {
+        background: #000;
+    }
+    background: $background-color;
+    .course-h1 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 55px;
+        color: $color-black;
+        padding-left: 60px;
+        margin-top: 45px;
+    }
+    .course-p {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: $color-gray;
+        padding-left: 60px;
+        margin-top: 20px;
+        padding-right: 65px;
+    }
+    .course-section-cards {
+        display: flex;
+        padding-left: 60px;
+        margin-top: 25px;
+        .course-section-card-1 {
+            margin-right: 35px;
+            .course-section-card-likes {
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 42px;
+                line-height: 60px;
+                text-align: start;
+                color: $color-black;
+            }
+            .course-section-card-span {
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+                color: $color-gray;
+            }
+        }
+    }
+}

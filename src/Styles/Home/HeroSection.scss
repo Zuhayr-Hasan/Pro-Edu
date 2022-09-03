@@ -1,0 +1,67 @@
+.slick-next {
+    right: 85px !important;
+}
+.slick-prev {
+    left: 80px;
+    z-index: 1000;
+}
+.slick-prev::before {
+    content: url(../../images/carousel-right.svg);
+}
+.slick-next::before {
+    content: url(../../images/carouesl-left.svg);
+}   
+.carousel-content {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 60px !important;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.carousel-btn {
+    margin-top: 60px !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: unset !important;
+    padding: 10px 30px !important;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .carousel-h1 {
+        font-size: 20px !important;
+    }
+    .carousel-btn {
+        margin-top: 10px !important;
+        font-size: 12px !important;
+    } 
+    .slick-next {
+        right: 20px !important;
+    }
+    .slick-prev {
+        left: 20px;
+        z-index: 1000;
+    }
+}

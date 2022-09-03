@@ -1,0 +1,78 @@
+$background-color: #F4FAFD;
+$color-black: #1D1D1D;
+$color-gray: #777777;
+$font-family: 'Poppins';
+$color-white: #fff;
+$color-lightblue: #289BDE;
+
+.discover {
+    .discover-h1 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 60px;
+        text-align: center;
+        color: #1D1D1D;
+        width: 100%;
+        padding: 0 300px;
+    }
+    .discover-p {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #777777;
+        width: 100%;
+        text-align: center;
+        padding: 0 250px;
+        margin-top: 15px;
+    }
+    .devep-heading {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        color: #4A4A4A;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .devep-para {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #777777;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .devep-price {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #289BDE;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .discover-btn {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background: #289BDE;
+        text-transform: unset;
+        padding: 15px 35px;
+    }
+}
