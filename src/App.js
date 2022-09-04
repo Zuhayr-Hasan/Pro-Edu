@@ -7,6 +7,7 @@ import HeroSection from './components/Home/HeroSection';
 import Join from './components/Home/Join';
 import Meet from './components/Home/Meet';
 import Question from './components/Home/Question';
+import Socials from './components/Home/Socials';
 
 function App() {
   return (
