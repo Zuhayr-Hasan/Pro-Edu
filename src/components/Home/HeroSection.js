@@ -27,22 +27,22 @@ function HeroSection() {
             <Box>
                 <Slider {...settings}>
                     <Box>
-                        <img src={girlimg} alt="Logo" className="img-fluid" />;
+                        <img src={girlimg} alt="Logo" className="img-fluid" />
                     </Box>
                     <Box>
-                        <img src={girlimg} alt="Logo" className="img-fluid" />;
+                        <img src={girlimg} alt="Logo" className="img-fluid" />
                     </Box>
                     <Box>
-                        <img src={girlimg} alt="Logo" className="img-fluid" />;
+                        <img src={girlimg} alt="Logo" className="img-fluid" />
                     </Box>
                     <Box>
-                        <img src={girlimg} alt="Logo"  className="img-fluid"/>;
+                        <img src={girlimg} alt="Logo"  className="img-fluid"/>
                     </Box>
                     <Box>
-                        <img src={girlimg} alt="Logo"  className="img-fluid"/>;
+                        <img src={girlimg} alt="Logo"  className="img-fluid"/>
                     </Box>
                     <Box>
-                        <img src={girlimg} alt="Logo" className="img-fluid" />;
+                        <img src={girlimg} alt="Logo" className="img-fluid" />
                     </Box>
                 </Slider>
             </Box>
