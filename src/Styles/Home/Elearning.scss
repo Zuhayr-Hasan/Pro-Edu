@@ -6,6 +6,17 @@ $color-white: #fff;
 $color-lightblue: #289BDE;
 
 .coures-section {
+    @media (max-width: 1200px) {
+      .learn-img {
+        object-fit: cover !important;
+        height: 100% !important;
+      }
+    }
+    // .img-elearn {
+    //     object-fit: cover;
+    //     height: 100% !important;
+    //     max-width: 100%;
+    // }
     .course-btn {
         padding: 10px 30px;
         background: $color-lightblue;
@@ -18,6 +29,10 @@ $color-lightblue: #289BDE;
         line-height: 30px;
         text-align: center;
         color: $color-white;
+    }
+    .img-fluid2 {
+        max-width: 100% !important;
+        height: auto !important;
     }
     .course-btn:hover {
         background: #000;
@@ -48,6 +63,7 @@ $color-lightblue: #289BDE;
         display: flex;
         padding-left: 60px;
         margin-top: 25px;
+        border: 2px solid red;
         .course-section-card-1 {
             margin-right: 35px;
             .course-section-card-likes {

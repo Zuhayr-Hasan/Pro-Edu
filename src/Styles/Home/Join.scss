@@ -6,6 +6,23 @@ $color-white: #fff;
 $color-lightblue: #289BDE;
 
 .join-section {
+    @media (max-width: 1200px) {
+        .join-btn-card {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .join-h2 {
+            text-align: center;
+            margin-left: 0px !important;
+        }
+        .join-p {
+            text-align: center !important;
+            padding-right: 0 !important;
+            padding: 0 100px !important;
+            margin-left: 0px !important;
+        }
+    }
     background: $color-lightblue;
     color: $color-white;
     .join-h2 {

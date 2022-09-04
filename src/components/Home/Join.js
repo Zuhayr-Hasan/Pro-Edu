@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from '@mui/system';
 import { Box ,Grid, Typography, Button } from '@mui/material';
 import '../../Styles/Home/Join.scss';
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const Join = () => {
   return (
@@ -15,8 +16,8 @@ const Join = () => {
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                 </Typography>
             </Grid>
-            <Grid item lg={4} className="join-btn-card">
-                <Box>
+            <Grid item lg={4} md={12} className="join-btn-card">
+                <Box className="join-btn-box">
                     <Button variant="contained" className="join-btn">Register Now</Button>
                 </Box>
             </Grid>

@@ -1,9 +1,13 @@
 .navbarheader {
+    .css-hyum1k-MuiToolbar-root {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .css-l1by21-MuiGrid-root {
         display: flex;
         justify-content: end;
         align-items: center;
-        padding: 15px 25px;
+        padding: 15px 0px;
     }
     .nav-mid {
         display: flex;

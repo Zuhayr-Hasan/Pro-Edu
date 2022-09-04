@@ -6,6 +6,19 @@ $color-white: #fff;
 $color-lightblue: #289BDE;
 
 .discover {
+    @media (max-width: 1200px) {
+        .discover-h1 {
+            font-size: 35px !important;
+            line-height: 45px;
+            padding: 0 100px !important;
+        }
+        .discover-p {
+            font-size: 16px;
+            line-height: 25px;
+            padding: 0 150px;
+            margin-top: 10px;
+        }
+    }
     .discover-h1 {
         font-family: $font-family;
         font-style: normal;
@@ -76,3 +89,4 @@ $color-lightblue: #289BDE;
         padding: 15px 35px;
     }
 }
+ 
